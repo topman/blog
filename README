@@ -1,0 +1,7 @@
+The process of writing blog:
+
+1. write blog in restructuredText format
+2. generate the html using rst2html
+3. copy the html content to wordpress's new post
+4. save and publish
+5. blog will be checked in
