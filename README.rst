@@ -6,3 +6,5 @@ The process of writing blog
 3. copy the html content to wordpress's new post
 4. save and publish
 5. blog will be checked in
+
+See here.
