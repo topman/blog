@@ -6,16 +6,16 @@ Git vs. Mercurial vs. Subversion
 ============================
 
 
-这三种版本控制工具，我都有用过，目前项目中使用最多的是Mercurial,
-而一些自己的项目也分布在github(git)或者bitbucket(mercurial)上。
+这三种版本控制工具，我都有用过，目前项目中使用最多的是 `Mercurial`_,
+而一些自己的项目也分布在 `Github`_ ( `Git`_ )或者 `Bitbucket`_ ( `Mercurial`_ )上。
 
-比较而言，Git和Mercurial是一类版本控制工具，即分布式的版本控制工具，
-而Subversion是集中式的版本控制工具，如果用一句话来概括二类的不同，则
+比较而言， `Git`_ 和 `Mercurial`_ 是一类版本控制工具，即分布式的版本控制工具，
+而 `Subversion`_ 是集中式的版本控制工具，如果用一句话来概括二类的不同，则
 为： **使用分布式版本控制工具检出的版本，包含完整的版本、历史等与代码
 相关的信息，而集中式的版本控制工具检出的版本，通常只包含最新的一个版本
 的代码** ， 所以分布式版本控制工具能够极大地减少网络通信（如与服务器），
-大大地提高效率。一个简单的例子例如要查看一个文件的log，用svn时就得和集中
-的服务器通信来获得，获取的延时取决于网络通信等因素，而git或者mercurial则
+大大地提高效率。一个简单的例子例如要查看一个文件的log，用 `Subversion`_ 时就得和集中
+的服务器通信来获得，获取的延时取决于网络通信等因素，而 `Git`_ 或者 `Mercurial`_ 则
 只是一个本地的操作。
 
 下面简单对比了下二类版本控制工具的优势：
@@ -71,6 +71,43 @@ Git vs. Mercurial vs. Subversion
 当然上面只是最最基本的使用说明，不过大致已经涵盖了开发人员90%以上的日常操作，诸如branch,tag等应用，
 你大体上可以通过"svn/hg/git help"来获得信息。
 
+当然倘若你能够熟练地掌握其中之一，那也自成为你的瑞士军刀。
+
+.. image:: http://icatclaw.com/wp-content/uploads/2011/02/瑞士军刀图标下载145.png
+
+关于二进制文件的版本控制
+==========================
+
+当然通常你会说没有这个必要来将二进制文件纳入到版本控制之中，我们大可选择ftp等覆盖方式来完成。
+在实际的开发中，我们也有类似的方法，例如flash生成的二进制文件的swf和音乐文件mp3等，前者我们
+还是使用 `Mercurial`_  而后者我通常就使用 `scp`_ 等命令来完成了覆盖。
+
+这时候，分布式版本控制工具的劣势就显现出来了，因为二进制文件每次更新基本上是一个完全新文件的更新，
+而非增量，举个例子，假设一个分布式版本控制工具（ `Git`_ / `Mercurial`_)的代码库中只有一个10M的swf文件，
+那么经过100个版本更新后，大小大致为10*100M=1G(大约，同样假设每次更新后的新文件大小也为10M）。如此一来，
+当我们在服务器上部署时，首次的网络通信成本就非常巨大！记得在我们实际的一次项目经历中，一次更新了2个小时才
+完成了更新。当然后续的更新相对成本较低。
+
+同样的例子，如果改为使用 `Subversion`_ ，中心结点（服务器）上的代码库的大小大致也是1G左右，但是当我们部署时，
+只需要大致10M左右的网络通信即可（取版本号为100的一次更新），所以成本则显得很低，后续的更新成本也相对较低。
+
+当然，分布式版本控制工具下的代码库在线上时，如果需要恢复到某个特定版本，则无需网络通信即可完成，而集中式的
+版本控制工具则成本相对较高。
+
+总之，如果二进制文件的大小较小、版本更新频率较低，则选择二者差别不大，对于二进制文件较大、版本更新频率较多的
+代码库，则选择集中式版本控制工具更为高效。
+
+常用的代码hosting服务
+=======================
+
+这三类代码控制工具都有很好的第三方的hosting解决方案，下面只列举最常用的几个：
+
+1. `Bitbucket`_ (针对 `Mercurial`_ , 支持免费private repos)
+2. `Google Code`_ (针对 `Subversion`_ 和 `Mercurial`_ , 不支持免费private repos)
+3. `Github`_ (针对 `Git`_ , 不支持免费private repos)
+
+现在应该说发展比较好的是 `Github`_, 大家不妨可注册一个玩玩。
+
 相关的链接
 ==============
 
@@ -78,3 +115,11 @@ Git vs. Mercurial vs. Subversion
 2. `svn book <http://svnbook.red-bean.com/en/1.5/index.html>`_
 3. `mercurial guide <http://mercurial.selenic.com/guide/>`_
 4. `git tag on SO <http://stackoverflow.com/questions/tagged/git>`_ (相关的对比和分析）
+
+.. _Bitbucket: https://bitbucket.org/
+.. _Github: http://github.com
+.. _Google Code: http://code.google.com/projecthosting/
+.. _Git: http://git-scm.com/
+.. _Mercurial: http://mercurial.selenic.com/
+.. _Subversion: http://subversion.tigris.org/
+.. _scp: http://linux.about.com/od/commands/l/blcmdl1_scp.htm
