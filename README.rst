@@ -7,4 +7,4 @@ The process of writing blog
 4. save and publish
 5. blog will be checked in
 
-See here.
+You can checkout the blog from https://github.com/topman/blog.
