@@ -1,4 +1,5 @@
-The process of writing blog:
+The process of writing blog
+===============================
 
 1. write blog in restructuredText format
 2. generate the html using rst2html
