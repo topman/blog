@@ -6,7 +6,7 @@ Django研究之admin系统
 所以对它的一些研究对于熟悉 `Django`_ 及其应用都有重要价值(因为Admin系统
 是一个完整的 `Django`_ 应用示例）.
 
-.. image:: ../../images/django_logo.png
+.. image:: http://towerjoo.blog.techweb.com.cn/files/2011/02/django_logo.png
 
 
 本次大致的研究过程如下：
@@ -16,7 +16,7 @@ Django研究之admin系统
 3. 理解和分析Admin系统的设计和代码书写值得学习和注意的问题
 4. 总结
 
-相关的代码可在 `bitbuckt <https://bitbucket.org/icatclaw/blog>`_ 查看和检出
+相关的代码可在 `bitbuckt <https://bitbucket.org/icatclaw/blog>`_ 查看和检出,也可 `下载zip后的代码`_ 。
 
 将Django的Admin系统作为独立应用来运行
 =========================================
@@ -55,6 +55,7 @@ admin项目，而不是系统安装的。
 ----------
 
 通过阅读代码，大致的修改步骤如下：
+
 1. 找到显示页面对应的template(change_list.html),也可使用方便的debug_toolbar来查看
 2. 添加导出为csv的链接
 3. 增加相应的url映射（options.py第254行）
@@ -63,6 +64,7 @@ admin项目，而不是系统安装的。
 相应的csv逻辑还是比较简单的，当然我只实现了将此表中所有记录导出的功能，部分数据导出的功能并未实现。
 
 在实现的过程中，找到相应的url映射和及处理逻辑是比较重要，和相对较难的，大致的过程如下：
+
 1. 入口是: admin.sites.urls,发现其是一个property
 2. 继而找到get_urls方法，得到相应的url映射，发现对于特定model的url映射是对应各个model的urls属性
 3. 继而找到options.py文件，同样发现其是一个property
@@ -77,12 +79,13 @@ admin项目，而不是系统安装的。
 基本的步骤同修改1，只是在功能和界面上有所调整。
 
 在修改2的完成中，我们使用了
+
 1. `forms`_
 2. `database aggregation`_
 
 最终的结果可见下图：
 
-.. image:: ../../images/django_admin_result.png
+.. image:: http://towerjoo.blog.techweb.com.cn/files/2011/02/django_admin_result1.png
 
 分析与总结
 =============
@@ -91,5 +94,5 @@ admin项目，而不是系统安装的。
 .. _Django: http://djangoproject.com
 .. _forms: http://docs.djangoproject.com/en/dev/topics/forms/
 .. _database aggregation: http://docs.djangoproject.com/en/dev/topics/db/aggregation/
-
+.. _下载zip后的代码: https://bitbucket.org/icatclaw/blog/get/tip.zip
 
