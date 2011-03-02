@@ -7,6 +7,8 @@
 进入一个领域了解相关的术语是重要的,也能够保证你知道关注什么,用什么来沟通,
 因为通常术语就包含了这个领域中最重要的一些概念,思路和研究方法.
 
+.. image:: ../../images/glossary.jpg
+
 `社交游戏`_ 是我目前所处的领域,它是一个新生的行业,它有传统游戏所关注的ARPU等,
 也有自身所关注的ARPPU等,所以让我不妨看看这个领域有哪些术语值得我们关注和理解.
 
@@ -20,7 +22,7 @@
 同游戏行业一样, 广告行业也充满了容易混淆的术语. 因为游戏发行和游戏营销已经非常紧密地联系在一起,所以
 非常容易产生术语的混淆.
 
-下面的内容是我从 `如何发布游戏`_ 这本书中摘取出来. 一旦后续有新的被业界接收的术语术语,我也会将它增加到下面
+下面的内容是我从 *如何发布游戏* 这本书中摘取出来. 一旦后续有新的被业界接收的术语术语,我也会将它增加到下面
 的列表中. 如果下面的列表中没有你期望的术语,请来信告诉我.
 
 =============================== ==============================================================
@@ -139,62 +141,39 @@ Publishers                      在游戏领域,"在未来数字产品发布中�
 Registered users                在线领域常常提到但没有用处的指标.一个成功的网站需要活跃用户,
                                 而它是由独立用户来衡量的.
 ------------------------------- --------------------------------------------------------------
-Remnant                         
+Remnant                         以较低的收费出售的广告,典型的例如通过网络.之所以称作"remnant",
+                                是因为从网络购买广告的广告投放商并不能确切地知道他们的广告会
+                                在哪些网站上展示,因此他们支付一个较低的CPM或者CPC费用.
 ------------------------------- --------------------------------------------------------------
+Smartphone                      新一代先进移动扶持设备,例如iPhone,Palm Pre或者Android操作系统
 ------------------------------- --------------------------------------------------------------
+SEM                             搜索引擎营销.为出现在搜索结果排名支付费用,例如Google,Yahoo
+                                或者MSN. (Search Engine Marketing)
 ------------------------------- --------------------------------------------------------------
+SEO                             搜索引擎优化.通过将一些关键的搜索词组包含到自己的网站中来达到
+                                通过搜索引入更多的的流量到自己网站的过程.
+------------------------------- --------------------------------------------------------------
+Triple A                        一种高级的营销主题,目标通常不少于1百万个单位.
+------------------------------- --------------------------------------------------------------
+Unique user(visitor)            独立用户或者独立访客是网站的一种标准的流量衡量指标.通常指的是
+                                一个用户在过去30天里访问一个网站,无论它访问多少次,都计做一次.
+                                一些网站使用不同的时间区间,例如2周,3个月等.
+------------------------------- --------------------------------------------------------------
+UGC                             UGC即用户创造内容,是指一个游戏或者网站中由用户创造的内容.
+                                小巨星中创造的等级,基于第二人生创建的内容,第一人称射击游戏中
+                                用户自己创造的增强程序等,都是UGC.
+                                (User Generated Content)
+------------------------------- --------------------------------------------------------------
+XBLA                            Xbox Live上的一项游戏下载服务.
+                                (Xbox Live Arcade)
+------------------------------- --------------------------------------------------------------
+XBLIG                           Xbox独立制作游戏. (Xbox Live Indie Games)
+=============================== ==============================================================
 
-================ ==============================================================
+最后生成一个术语大全图供大家查看方便:
+
+.. image:: ../../images/game_glossary.png
 
 
-The games industry is full of confusing terms. So is the advertising industry. And now that games publishing and games marketing crosses over both disciplines, the potential for confusion is rife.
-
-I’ve taken the glossary from How to Publish a Game and reproduced here. Over time, I expect to add to it as new terms are adopted. If there is anyting you would like to see in here, let me know.
-
-A/B testing Also known as split-testing, A/B testing involves testing two small changes to your website or game on a live service and measuring which performs better.
-Ad Server   A web tool such as OpenX or DoubleClick’s DART that intelligently delivers multiple advertising campaigns spread over time.
-Affiliate marketing Affiliates are third-party websites which refer users to your site in return for a payment (on a CPC or more usually a CPA basis). They are often managed through Affiliate Networks such as Commission Junction or TradeDoubler. If you are referring gamers to a site such as Amazon or iTunes that sells your own game, you can register and become an affiliate yourself, generating additional revenue (typically 5-10% of the sales generated) from sending traffic to the site.
-App Currently means an application for smartphones such as the iPhone and Android, as distinct from a web page accessed from a mobile phone.
-AppStore    Apple’s online store for applications for the iPhone.
-ARPU    Average revenue per user. A metric borrowed from the mobile industry, it shows how much the average user spends. Typically a monthly, rather than a yearly, figure. Not to be confused with ARPPU.
-ARPPU   Average revenue per PAYING user. Confusion between ARPU and ARPPU is rife. In a free to play game, there may be many millions of users, but only a percentage of them pay. Most games companies quote ARPPU, but many observers multiply ARPPU by total number of users to get revenue. To calculate revenue, they should multiply EITHER ARPPU x number of paying users OR ARPPU x total users x conversion rate.
-CAC Customer Acquisition Cost, also known as CPA.
-CANSPAM The US Act of 2003 that regulates the sending of commercial email in the United States.
-Churn   The percentage of customers who leave a service every month/year.
-CPA Cost Per Acquisition/Action. An online advertising model whereby an advertiser pays a publishing website a cash amount every time the website refers a consumer to the advertiser’s website and the consumer takes a specified action. It may include filling a form or registering, but the most common is making a cash payment. For example, EVE Online will pay $7 every time a referred user becomes a subscriber.It is also used by game developers and web publishers as a key metric to understand how much it costs them to acquire a customer from all of their marketing sources.
-CPC Cost Per Click. An online advertising model whereby an advertiser pays a publishing website for each click on a link. Google’s AdSense program is based around CPC.
-CPI Cost per Install. An online advertising model, currently mostly confined to the iPhone, where developers/publishers pay a fee for the successful installation of an app.
-CPM Cost per Mille (or Thousand). The primary measure of advertising cost across all media (including television, radio, print and web). It measures that cost per thousand “views” of an advertisement. In an online context, it refers to the cost of a thousand impressions of a single banner.
-CPT Cost per Thousand. See CPM.
-DAUs    Daily Active Users.
-DLC Downloadable Content. Generally, I suppose this would mean any content that has been downloaded. In practice, it appears to mean additional content that can be downloaded (whether for free or for a payment) for boxed products. Examples include the infamous horse armour for Oblivion or additional content for Burnout Paradise.
-eCPM    Effective Cost Per Thousand. A method of comparing a CPC/CPA campaign to a standard CPM campaign. By aggregating the total amount of CPC/CPA revenue and dividing by the number of impressions served, you can calculate the effective CPM.
-EIS Enterprise Investment Scheme, a UK government initiative to encourage investment in early stage businesses. See p. 166.
-F2P Free to play. See Freemium.
-Freemium    A business model whereby you give your core game away for free and charge users for premium services or virtual goods.
-Free To Play    Also known as F2P. See Freemium.
-GaaPy   A “game as a product”. A phrase coined by me, see p. 19.
-GaaSy   A “game as a service”. A phrase been coined by me, see p. 19.
-Geo-targeting   Showing content, usually advertisements, only to people in a specific country.
-Impression  The basic unit of online advertising. An impression is counted when a single user sees a single ad.
-IP  Intellectual Property. Also stands for Internet Protocol.
-Match Three A game mechanic where players combine three or more similar items to make them disappear. Bejewelled is a classic example of a match three game.
-MAUs    Monthly Active Users.
-Metacritic  A website that aggregates review scores for games, films and music to give a blended “average” score. The exact algorithm of weighting is not revealed, but Metacritic is a good guide to the general reception of a game.
-Meta tag    A meta tag holds data about the content of a web page in the <head> section. Often associated with effective SEO, but no longer as effective as it once was. It is good practice to have good “keyword” and “description” fields, but good quality page design is more important for SEO than playing games with meta tags.
-MMO Massively-multiplayer online game.
-PSN PlayStation Network.
-Publishers  In games, “blood-sucking leeches who have no place in the future of digital distribution” (according to David Lau-Kee, see p 21).In web advertising, publishers generally means websites, such that a developer talking to an advertiser about his browser-based game will be referred to as a publisher.
-Registered users    An oft-quoted but generally useless metric for online businesses. A successful web business needs active users, and that is best measured by Unique Users.
-Remnant Advertising that is sold for low rates, typically through networks. It is known as “remnant” because advertisers buying from a network don’t know exactly which sites their ads will be displayed on, and so they pay a lower CPM or CPC rate.
-Smartphone  Any of the new generation of advanced mobile handsets such as the iPhone, the Palm Pre or the Android operating system.
-SEM Search Engine Marketing. Paying money to appear in the search rankings on sites such as Google, Yahoo and MSN.
-SEO Search Engine Optimisation. The process of driving traffic to your site by ensuring that key search phrases are included in the text of your website.
-Triple A    A premium selling title, targeting at least 1 million units.
-Unique user (visitor)   A unique user or unique visitor is the standard audience measurement unit on the web. It typically means a unique individual who has visited a website in the last 30 days, counted only once no matter how many times they visited. Some sites use different time frames (2 weeks, 3 months) for their uniques.
-UGC (user-generated content)    UGC or user-generated content is content created by users within a game or website. Levels created on Little Big Planet, content built in Second Life or mods for first person shooters are all UGC.
-XBLA    Xbox Live Arcade.
-XBLIG   Xbox Live Indie Games.
-
-.. _社交游戏: 
+.. _社交游戏: http://towerjoo.blog.techweb.com.cn/social-game
 .. _GLOSSARY OF ONLINE GAMES: http://www.gamesbrief.com/2010/07/glossary-of-online-games/
