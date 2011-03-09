@@ -16,7 +16,7 @@ Django研究之admin系统
 3. 理解和分析Admin系统的设计和代码书写值得学习和注意的问题
 4. 总结
 
-相关的代码可在 `bitbuckt <https://bitbucket.org/icatclaw/blog>`_ 查看和检出,也可 `下载zip后的代码`_ 。
+相关的代码可在 `github <https://github.com/topman/blog_code>`_ 查看和检出,也可 `下载zip后的代码`_ 。
 
 将Django的Admin系统作为独立应用来运行
 =========================================
@@ -94,5 +94,5 @@ admin项目，而不是系统安装的。
 .. _Django: http://djangoproject.com
 .. _forms: http://docs.djangoproject.com/en/dev/topics/forms/
 .. _database aggregation: http://docs.djangoproject.com/en/dev/topics/db/aggregation/
-.. _下载zip后的代码: https://bitbucket.org/icatclaw/blog/get/tip.zip
+.. _下载zip后的代码: https://github.com/topman/blog_code/zipball/master
 
