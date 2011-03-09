@@ -45,6 +45,8 @@
 
 P.S. 这次在听的过程中还使用 `@towerjoo`_ 微博直播了下整个活动，觉得挺好的，如同笔记样可供自己和大家查询。
 
+P.S. 网易更新后的链接地址为: http://tech.163.com/special/wdk04/
+
 
 .. _@我心_李力: http://t.sina.com.cn/newleeli
 .. _热酷: http://rekoo.com/
