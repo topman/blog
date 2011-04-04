@@ -10,3 +10,10 @@ The process of writing blog
 You can checkout the blog from https://github.com/topman/blog.
 
 Blog codes are also hosted in https://github.com/topman/blog_code
+
+Add wiki repos in
+====================
+
+To add wiki attached to the main repos in, just need:
+
+git clone https://topman@github.com/topman/blog.wiki.git wiki
