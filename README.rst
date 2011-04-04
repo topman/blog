@@ -8,3 +8,5 @@ The process of writing blog
 5. blog will be checked in
 
 You can checkout the blog from https://github.com/topman/blog.
+
+Blog codes are also hosted in https://github.com/topman/blog_code
