@@ -54,7 +54,7 @@ schema进行比较，如果 `evolution`_ 认为有更改，则它会进行比较
 
 `south`_ 正是因为 `evolution`_ 有这么多的问题，作者才开始了这个项目，上面提到的8个问题， `south`_ 已经很好
 地进行了解决，并且在未来可能加入到 `django`_ 的代码库中（其实1.2也差点合并进去，因为 `south`_ 作者不建议现在合并
-才最终没有成形）。
+才最终没有成形, 具体可查看 `作者的说明`_ ）。
 
 如果你之前没有使用过 `south`_ ，那么从现在起开始用 `south`_ 会对你受益匪浅；
 如果你之前使用的是 `evolution`_ ，你会发现 `south`_ 更加友好和强大。
@@ -83,6 +83,7 @@ schema进行比较，如果 `evolution`_ 认为有更改，则它会进行比较
 4. `django`_ 
 5. `south`_ 
 6. `south's design`_ 
+7. `作者的说明`_ 
 
 .. _evolution: http://code.google.com/p/django-evolution/
 .. _south的tutorial: http://south.aeracode.org/docs/tutorial/index.html
@@ -90,3 +91,4 @@ schema进行比较，如果 `evolution`_ 认为有更改，则它会进行比较
 .. _south's design: http://www.aeracode.org/2009/5/9/souths-design/
 .. _south: http://south.aeracode.org/
 .. _django: http://djangoproject.com
+.. _作者的说明: http://www.aeracode.org/2010/6/2/django-and-migrations/
