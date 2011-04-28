@@ -10,6 +10,8 @@ Script to create a skeleton for the new blog post, which includes the following 
 SKELETON = \
 """%(title)s
 
+.. TAGS:
+
 摘要
 ======
 
@@ -34,7 +36,7 @@ PATH = os.path.abspath(os.path.dirname(__file__))
 
 class Helper(object):
     def __init__(self, path):
-        self.input = self.path
+        self.input = path
         self.path = os.path.join(PATH, path)
         self.title = path.split("/")[-1]
         self.infile = self.path + ".rst"
@@ -50,7 +52,7 @@ class Helper(object):
         title = "%s\n%s\n%s" % (t, self.title, t)
         data = {
             "title" : title,
-            "download_url" : "https://github.com/topman/blog/tree/master/%s" % self.input + ".rst",
+            "download_url" : "https://github.com/topman/blog/tree/master/%s" % self.title + ".rst",
         }
         cont = SKELETON % data
         fh.write(cont)
@@ -69,11 +71,11 @@ class Helper(object):
         if len(args) != 1:
             parser.print_help()
             parser.exit(msg="\nNeed ONE argument as the path of the new post(No .rst append)\n")
-        path = args[0]
-        path = os.path.join(PATH, path)
+        _path = args[0]
+        path = os.path.join(PATH, _path)
         if cls.is_already_existing(path):
             parser.exit(msg="\nThe path provided already exists. Try another one!\n")
-        return path
+        return _path
 
 if __name__ == "__main__":
     path = Helper.handle_arg()
