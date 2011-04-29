@@ -52,7 +52,7 @@ class Helper(object):
         title = "%s\n%s\n%s" % (t, self.title, t)
         data = {
             "title" : title,
-            "download_url" : "https://github.com/topman/blog/tree/master/%s" % self.title + ".rst",
+            "download_url" : "https://github.com/topman/blog/tree/master/%s" % self.input + ".rst",
         }
         cont = SKELETON % data
         fh.write(cont)
