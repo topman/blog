@@ -12,7 +12,7 @@ It will:
 """
 
 class Helper(object):
-    EXTRACT_MARKS_RE = r"`([^`]+)`_"
+    EXTRACT_MARKS_RE = r"`([^`<]+)`_"
 
     def __init__(self):
         pass
