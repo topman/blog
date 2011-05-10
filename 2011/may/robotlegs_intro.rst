@@ -81,7 +81,7 @@ RobotLegs简介
 
 还是一句话，框架或者语言只能在最大限度上保证用户代码的清晰、可读、解耦、可维护等（例如python语言），但是
 最终的代码质量还是取决于用户本身（程序员），所以一些编程的哲学和模式才是更为关键的（大致可看下
-`Code Complete`_ 、 `Desgin Patterns`_ 等）。
+`Code Complete`_ 、 `Design Pattern`_ 等）。
 
 最近一直在看 `Code Complete`_ ，一句话让我感受非常深，大致意思是说 **写代码的过程就是复杂度管理的过程(Complexity Management)** ，
 这一点之前的认识不够，我推荐给看到的朋友，将它和 *DRY* 原则一样牢记在心吧。
@@ -101,3 +101,5 @@ RobotLegs简介
 .. _pureMVC: http://puremvc.org/
 .. _pureMVC notification: http://baidu.com
 .. _robotlegs: http://www.robotlegs.org/
+.. _Code Complete: http://www.cc2e.com/
+.. _Design Pattern: http://book.douban.com/subject/1436745/
