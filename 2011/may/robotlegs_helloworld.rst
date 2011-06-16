@@ -9,6 +9,7 @@ Robotlegs Hello World详细教程
 
 本文详细说明了使用 `flashdevelop`_ 基于 `Robotlegs`_ flash框架完成一个Hello World示例的
 教程，这个示例包括完整的MVC（及Service）。
+本示例可以 `下载源代码`_ 。
 
 正文
 ======
@@ -51,7 +52,7 @@ Robotlegs Hello World详细教程
 整个结构
 ----------
 
-根据上面的需求定义，我们可以有下面的系统架构：
+根据上面的需求定义，我们可以有下面的组织架构：
 
 .. image:: ../../images/robotlegs_helloworld.png
 
@@ -59,7 +60,7 @@ Robotlegs Hello World详细教程
 
 需要说明的是：
 
-1. 在理解代码和框架时，最好知道如单例模式
+1. 在理解代码和框架时，最好了解如单例模式等设计模式
 2. 对于 `依赖注入`_ 有一定理解
 3. 对于 `MVC`_ 有一定理解
 
@@ -80,7 +81,7 @@ Robotlegs Hello World详细教程
 
 下载源代码
 =============
-可从 `这里 <https://github.com/topman/blog_code/tree/master/RobotLegsHelloWorld>`_ 查看或者下载。 
+可从 `下载源代码`_ 查看或者下载。 
 
 
 参考资料
@@ -102,3 +103,4 @@ Robotlegs Hello World详细教程
 .. _flashdevelop: http://www.flashdevelop.org/wikidocs/index.php?title=Main_Page
 .. _Robotlegs简介: http://towerjoo.blog.techweb.com.cn/archives/210.html
 .. _Robotlegs Best Practice: https://github.com/robotlegs/robotlegs-framework/wiki/Best-Practices
+.. _下载源代码: https://github.com/topman/blog_code/tree/master/RobotLegsHelloWorld
