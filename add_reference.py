@@ -40,8 +40,14 @@ class Reference(object):
         return args[0]
 
 if __name__ == "__main__":
+    # add reference
     path = Reference.handle_arg()
     a = Reference(path)
     a.add_reference()
+
+    # add links
+    from easy_writing import Helper 
+    b = Helper()
+    b.handle_links(path)
 
     
