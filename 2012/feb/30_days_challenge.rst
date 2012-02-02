@@ -45,7 +45,7 @@
 
 下载原文
 ===========
-可从 `此处 <https://github.com/topman/blog/tree/master/2012/feb/30_days_plan.rst>`_ 查看或者下载。 
+可从 `此处 <https://github.com/topman/blog/tree/master/2012/feb/30_days_challenge.rst>`_ 查看或者下载。 
 
 参考资料
 ===========
